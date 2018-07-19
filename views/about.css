@@ -1,0 +1,47 @@
+.jumbo-about{
+    background-color: #399ed2;
+    color: white;
+    border-radius: 0;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+.navbar-nav>li>a{
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+.navbar-toggler {
+    margin-right: .325em;
+}
+
+.footer{
+    bottom: 0;
+    width: 100%;
+    background-color: #cf1b41;
+    color: white;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.footer>.img-container>a>img {
+    filter: brightness(0) invert(1);
+}
+
+.img-container>a>img{
+    height: 48px;
+    width: auto;
+    margin: 1em;
+}
+
+.img-container>a{
+    margin: 1em;
+}

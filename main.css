@@ -1,0 +1,99 @@
+:root {
+    /*Primary colors */
+    --cfa-red: #cf1b41;
+    --cfa-blue: #399fd3;
+    --cfa-gray: #6D6E71;
+
+    /* Secondary Colors */
+    --cfa-light-blue: #7ab5d6;
+    --cfa-medium-blue: #4298bb;
+    --cfa-dark-blue: #004b6a;
+    --cfa-light-gray: #e5e5e5;
+    --cfa-medium-gray: #999595;
+    --cfa-dark-gray: #444444;
+    --cfa-medium-red: #aa1c3a;
+    --cfa-orange: #e87d2b;
+    --cfa-purple: #69579C;
+    --cfa-teal: #00a175;
+    --cfa-yellow: #fedd44;
+
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+.navbar-nav>li>a{
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+.navbar-toggler {
+    margin-right: .325em;
+}
+.footer{
+    bottom: 0;
+    width: 100%;
+    background-color: #cf1b41;
+    color: white;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.footer>.img-container>a>img {
+    filter: brightness(0) invert(1);
+}
+
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.uptown-button {
+    margin-top: 20px;
+    width: 200px;
+    background-color: #3fa9f5;
+    border: 0;
+    text-transform: uppercase;
+}
+
+
+.img-container>a>img{
+    height: 48px;
+    width: auto;
+    margin: 1em;
+}
+
+.img-container>a{
+    margin: 1em;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.jumbotron {
+    min-height: 520px;
+    max-height: 900px;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ),url('img/codeAndCoffee.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    color: white;
+    border-radius: 0;
+}
